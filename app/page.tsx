@@ -14,6 +14,9 @@ export default function Home() {
             Bach Money Stats
           </a>
         </h1>
+        <p className="text-center sm:text-left">
+          Numbers and metrics for the Bach Money project.
+        </p>
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="tracking-[-.01em]">
             A decentralized stablecoin platform.
@@ -21,11 +24,14 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             Governed by the community of deflationary €BACH token holders.
           </li>
-          <li className="tracking-[-.01em]">
-            Built on Solana.
-          </li>
+          <li className="tracking-[-.01em]">Built on Solana.</li>
         </ol>
-
+        <iframe
+          width="100%"
+          height="600"
+          src="https://birdeye.so/tv-widget/CTQBjyrX8pYyqbNa8vAhQfnRXfu9cUxnvrxj5PvbzTmf?chain=solana&viewMode=pair&chartInterval=15&chartType=Candle&chartTimezone=Europe%2FStockholm&chartLeftToolbar=show&theme=dark"
+          allowFullScreen
+        ></iframe>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
@@ -66,7 +72,8 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Docs <span className="text-xs text-gray-400 dark:text-red-500">WIP</span>
+          Docs{" "}
+          <span className="text-xs text-gray-400 dark:text-red-500">WIP</span>
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -81,7 +88,8 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Launch app <span className="text-xs text-gray-400 dark:text-red-500">WIP</span>
+          Launch app{" "}
+          <span className="text-xs text-gray-400 dark:text-red-500">WIP</span>
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
