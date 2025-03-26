@@ -66,7 +66,22 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Docs
+          Docs <span className="text-xs text-gray-400 dark:text-red-500">WIP</span>
+        </a>
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://app.bach.money"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/globe.svg"
+            alt="Globe icon"
+            width={16}
+            height={16}
+          />
+          Launch app <span className="text-xs text-gray-400 dark:text-red-500">WIP</span>
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
