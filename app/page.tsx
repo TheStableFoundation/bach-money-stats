@@ -7,9 +7,8 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl font-bold text-center sm:text-left">
           <a
             className="text-primary"
-            href="https://bach.money"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://bachmoney-stats.5mb.app"
+            title="The Bach Money statistics - numbers and metrics."
           >
             Bach Money Stats
           </a>
@@ -38,6 +37,7 @@ export default function Home() {
             href="https://www.birdeye.so/token/CTQBjyrX8pYyqbNa8vAhQfnRXfu9cUxnvrxj5PvbzTmf"
             target="_blank"
             rel="noopener noreferrer"
+            title="The Bach Money decentralized stablecoin platform Birdeye view."
           >
             <Image
               className="dark:invert"
@@ -50,9 +50,10 @@ export default function Home() {
           </a>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://bach.money/whitepaper"
+            href="https://bachmoney.5mb.app/whitepaper"
             target="_blank"
             rel="noopener noreferrer"
+            title="The Bach Money decentralized stablecoin platform whitepaper."
           >
             Whitepaper
           </a>
@@ -93,9 +94,10 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://bach.money"
+          href="https://bachmoney.5mb.app"
           target="_blank"
           rel="noopener noreferrer"
+          title="The Bach Money decentralized stablecoin platform website."
         >
           <Image
             aria-hidden
