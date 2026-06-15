@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Self-contained server bundle for smbCloud nextjs-ssr deploys.
+  output: "standalone",
 };
 
 export default nextConfig;

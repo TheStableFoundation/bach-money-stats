@@ -1,10 +1,19 @@
 name = "bach-money-stats"
-description = "numbers and metrics"
+description = "Bach Money — numbers and metrics."
 
+# Single-repo Next.js SSR app under The Stable Foundation workspace (project 35).
+# Domains (nginx → 127.0.0.1:3014): stats.bach.money, bachmoney-stats.5mb.app.
 [project]
-id = 10
+id = 35
 name = "bach-money-stats"
+frontend_app_id = "a29f7d82-42fa-406c-95ba-f25443d3ba2b"
+deploy_repo_id = 23
 repository = "bachmoneystats"
-description = "numbers and metrics"
-created_at = "2025-06-06T11:26:35.409Z"
-updated_at = "2025-06-06T11:26:35.409Z"
+runner = 0
+kind = "nextjs-ssr"
+source = "."
+source_path = "."
+path = "apps/web/bachmoneystats"
+port = 3014
+pm2_app = "bachmoneystats"
+package_manager = "pnpm"
